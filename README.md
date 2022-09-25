@@ -182,7 +182,7 @@ Project Link: [https://github.com/Pockylee/Colorful-gradient](https://github.com
 [issues-shield]: https://img.shields.io/github/issues/Pockylee/Colorful-gradient.svg?style=for-the-badge
 [issues-url]: https://github.com/Pockylee/Colorful-gradient/issues
 [license-shield]: https://img.shields.io/github/license/Pockylee/Colorful-gradient.svg?style=for-the-badge
-[license-url]: https://github.com/Pockylee/Colorful-gradient/LICENSE.md
+[license-url]: https://github.com/Pockylee/Colorful-gradient/main/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/po-yi-brian-li-44bbab18a
 [product-screenshot]: images/screenshot.png
