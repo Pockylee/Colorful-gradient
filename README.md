@@ -181,7 +181,7 @@ Project Link: [https://github.com/Pockylee/Colorful-gradient](https://github.com
 [stars-url]: https://github.com/Pockylee/Colorful-gradient/stargazers
 [issues-shield]: https://img.shields.io/github/issues/Pockylee/Colorful-gradient.svg?style=for-the-badge
 [issues-url]: https://github.com/Pockylee/Colorful-gradient/issues
-[license-shield]: https://img.shields.io/github/license/Pockylee/Colorful-gradient.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/Pockylee/Colorful-gradient.svg?style=for-the-badge&kill_cache=1
 [license-url]: https://github.com/Pockylee/Colorful-gradient/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/po-yi-brian-li-44bbab18a
