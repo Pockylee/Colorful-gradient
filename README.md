@@ -67,17 +67,9 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
+This is a project mainly focus on the issue when automated microscope dealing with blood sample images.
+There are three components in this algorithm which are: Sharpness value, Colorfulness value, and Color cast score.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
-* [![Python][Python]][Python-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- GETTING STARTED -->
@@ -185,7 +177,7 @@ Project Link: [https://github.com/Pockylee/Colorful-gradient](https://github.com
 [license-url]: https://github.com/Pockylee/Colorful-gradient/blob/master/LICENSE.md
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/po-yi-brian-li-44bbab18a
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: readme_image/parallel_workflow.jpg
 
 [Python-url]: https://www.python.org/
 [Python]: https://img.shields.io/badge/python-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
