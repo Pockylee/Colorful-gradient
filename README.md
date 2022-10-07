@@ -19,9 +19,8 @@
 <h3 align="center">An Microscope Image Auto-Focus Method based on Colorful-Gradient</h3>
 
   <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/Pockylee/Colorful-gradient"><strong>Explore the docs »</strong></a>
+    This is a project mainly focus on the issue when automated microscope dealing with blood samnple images.
+    We proposed a brand new and effective algorithm as for automated microscope focus method solution.
     <br />
     <br />
     <a href="https://github.com/Pockylee/Colorful-gradient">View Demo</a>
@@ -75,9 +74,6 @@ There are three components in this algorithm which are: Sharpness value, Colorfu
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 ### Installation
 
 Clone the repo
@@ -92,25 +88,56 @@ Clone the repo
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+While observing a blood sample under the micoscope, the conventional sharpness operator will be effected serously by the 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
+In this version, we have only one program to calculate the focus valuem, which is colorful_gradient.py
+<br/>
+
+
+To check every argument in this program which can be modify:
+   ```sh
+    python3 colorful_gradient.py --help
+   ```
+You'll get the output of the arguments information:
+
+   ```sh
+    -t CASE_TYPE, --case_type CASE_TYPE
+                        Type of cases in the input image directory.(single/multiple)
+    -i DIR_PATH, --dir_path DIR_PATH
+                        Please enter your image directory path here.
+    -o OUTPUT_PATH, --output_path OUTPUT_PATH
+                        Please enter the output path where you want to store your explicit image in
+                        each cases
+    -p, --parallel_compute
+                        Choose to calculate the colorful-gradient in parallel computing mode or
+                        not.(True/False)
+   ```
+Due to the privacy policy, we are not able to upload our experiment data images to github. Please prepare your own dataset to run this program!
+
+After start running the program, the program will show the progress to make sure that it is not crash.
+Including showing the Input Path, Explicit Index, and the Output Path.
+   ```sh
+  Program start
+  Task Type:  Multiple
+  Parallel Compute:  True
+  ===================================================
+  Input Path:  ./images/multiple/case2
+  Explicit Index:  0
+  Output Path:  ./output/case2/P_05_220119_161941.jpg
+  ===================================================
+  Input Path:  ./images/multiple/case_1
+  Explicit Index:  0
+  Output Path:  ./output/case_1/P_21_220119_162014.jpg
+  ===================================================
+  End of the program. See you next time!
+   ```
+The program can be executed on both macOS and Linux.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/Pockylee/Colorful-gradient/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
